@@ -47,4 +47,5 @@ while True:
 
       if last_id != None and id != last_id:
           print "-" * 10 + "Parcel moved!" + "-" * 10
+      last_id = id
       print id, desc, where
